@@ -6,6 +6,12 @@ CodeS series have demonstrated outstanding performance on many challenging text-
 
 Utilizing CodeS, we have launched a text-to-SQL demo. You can access it at [RUCKBReasoning/text2sql-demo](https://github.com/RUCKBReasoning/text2sql-demo). Feel free to explore and follow the provided instructions to customize your own text-to-SQL demo!
 
+## 缩短DDL的预处理模块
+
+> 您好，冗长的 DDL 输入在现实应用程序中很常见。为了解决这个问题，一种有效的方法是实施一个预处理模块，该模块根据自然语言问题提取最相关的表和列。该技术可以显着减少输入序列的总长度，从而提高效率。
+
+代码可以参考：[pruning.py](https://github.com/RipperTs/sql-eval/blob/main/utils/pruning.py)
+
 ## Reproduce our results
 Reproducing our results is straightforward using the checkpoints and scripts we have supplied.
 
